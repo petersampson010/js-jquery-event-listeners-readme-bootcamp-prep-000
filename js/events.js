@@ -4,6 +4,9 @@ function getIt() {
   })
 }
 
+function frameIt() {
+  $(`.tasty)
+}
 $(`.tasty`).on(`load`, frameIt() {
   return .tasty(border: 1px solid red)
 })
