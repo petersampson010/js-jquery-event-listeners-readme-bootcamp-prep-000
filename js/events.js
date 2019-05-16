@@ -1,6 +1,6 @@
 function getIt() {
   $(`p`).on("click", function() {
-  window.alert `Hey!`
+  window.alert(`Hey!`)
 })
 
 $(`.tasty`).on(`load`, frameIt() {
