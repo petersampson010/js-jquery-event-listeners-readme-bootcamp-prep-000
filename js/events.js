@@ -24,7 +24,6 @@ $("form").on("submit", submitIt() {
 
 
 $(document).ready(function(){
-
-// call functions here
+getIt
 
 });
