@@ -13,14 +13,16 @@ $(document).on(`keydown`,pressIt(key) {
   }
 }
 
-$("form").on("submit", function() {
+$("form").on("submit", submitIt() {
   if ($( "input:first" ).val() === "correct" {
-    alert(`your form is going to be submitted now`)
+    alert(`your form is going to be submitted no.`)
     return
   }
   alert("you entered the wrong value")
   return
 })
+
+
 $(document).ready(function(){
 
 // call functions here
