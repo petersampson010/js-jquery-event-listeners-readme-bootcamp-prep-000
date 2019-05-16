@@ -20,16 +20,10 @@ function pressIt() {
 
 function submitIt() {
   $(`form`).on(`submit`, function() {
-    alert()
-  }
+    alert(`Your form is going to be submitted now.`)
+  })
 }
-$("form").on("submit", submitIt() {
-  if ($( "input:first" ).val() === "correct" {
-    alert(`your form is going to be submitted no.`)
-    return
-  }
-  alert("you entered the wrong value")
-  return
-})
+
+
 
 getIt()
