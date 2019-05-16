@@ -19,7 +19,9 @@ function pressIt() {
 }
 
 function submitIt() {
-  
+  $(`form`).on(`submit`, function() {
+    
+  }
 }
 $("form").on("submit", submitIt() {
   if ($( "input:first" ).val() === "correct" {
