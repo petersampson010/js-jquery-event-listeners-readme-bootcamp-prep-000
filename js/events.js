@@ -24,6 +24,6 @@ function submitIt() {
   })
 }
 
-$(document)
+$(document).ready(function)
 
 getIt()
