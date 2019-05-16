@@ -7,12 +7,14 @@ function getIt() {
 function frameIt() {
   $(`img`).on(`load`, function() {
     $(`img`).addClass(`tasty`)
+  })
+}
+
+function pressIt() {
+  $(document).on(`keydown`, function() {
+    if (key.which == 71)
   }
 }
-$(`.tasty`).on(`load`, frameIt() {
-  return .tasty(border: 1px solid red)
-})
-
 $(document).on(`keydown`,pressIt(key) {
   if (key.which == 71){
     alert(`G was pressed`)
