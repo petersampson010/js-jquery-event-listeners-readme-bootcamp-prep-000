@@ -12,7 +12,7 @@ function frameIt() {
 
 function pressIt() {
   $(document).on(`keydown`, function(tr) {
-    if (key.which == 71) {
+    if (tr.which == 71) {
       alert(`G was pressed`)
     }
   })
