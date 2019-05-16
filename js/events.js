@@ -13,16 +13,14 @@ function frameIt() {
 function pressIt() {
   $(document).on(`keydown`, function() {
     if (key.which == 71) {
-      
+      alert(`G was pressed`)
     }
-  }
-}
-$(document).on(`keydown`,pressIt(key) {
-  if (key.which == 71){
-    alert(`G was pressed`)
-  }
+  })
 }
 
+function submitIt() {
+  
+}
 $("form").on("submit", submitIt() {
   if ($( "input:first" ).val() === "correct" {
     alert(`your form is going to be submitted no.`)
