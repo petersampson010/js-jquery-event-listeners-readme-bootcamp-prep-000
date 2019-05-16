@@ -22,8 +22,4 @@ $("form").on("submit", submitIt() {
   return
 })
 
-
-$(document).ready(function(){
 getIt()
-
-});
