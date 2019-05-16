@@ -5,7 +5,9 @@ function getIt() {
 }
 
 function frameIt() {
-  $(`img`).on(`load)
+  $(`img`).on(`load`, function() {
+    
+  }
 }
 $(`.tasty`).on(`load`, frameIt() {
   return .tasty(border: 1px solid red)
