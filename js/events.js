@@ -1,7 +1,8 @@
 function getIt() {
   $(`p`).on("click", function() {
   window.alert(`Hey!`)
-})
+  })
+}
 
 $(`.tasty`).on(`load`, frameIt() {
   return .tasty(border: 1px solid red)
